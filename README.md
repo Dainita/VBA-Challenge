@@ -1,5 +1,5 @@
 # VBA-Challenge
-
+Refactoring stock analysis to determine if VBA script runs faster
 
 ## Overview 
 
@@ -9,19 +9,20 @@ This analysis is prepared to refactor the code used for the All Stocks Analysis 
 ## Analysis
 
 ### Process
-The original code from 
+The code from the original analysis was run to obtain the script run time. A new module was then created to hold the refactored code and the starter code was copied into that module. The code was rewritten, using a ticker index, reusing some code from the original analysis and then debugging. The debugging process was a challenge as the loop through arrays to output the return kept returning an error. After several attempts to correct the error, a new data set was downloaded and the code rewritten in a fresh copy. The code finally ran with no errors. 
 
-### Analysis of 2017
-Analysis of All Stocks 
+### Analysis
+As exhibited with the pop-ups below, the refactored code for both year 2017 and 2018 ran faster than the previous code. The same data was returned in the table for both the original code and the refactored code, but the changes help the VBA script to run faster. 
 
-![Outcomes Based on Launch Date](https://github.com/Dainita/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![All_Stocks_Analysis_2017](https://github.com/Dainita/VBA-Challenge/blob/main/All_Stocks_Analysis%202017.png)
+![All_Stocks_Analysis_2017](https://github.com/Dainita/VBA-Challenge/blob/main/All_Stocks_Analysis%202018.png)
 
-### Analysis of 2018
+![VBA_Challeng)2017](https://github.com/Dainita/VBA-Challenge/blob/main/VBA_Challenge_2017.png)
+![VBA_Challeng)2017](https://github.com/Dainita/VBA-Challenge/blob/main/VBA_Challenge_2018.png)
 
-
-![Outcomes Based on Goals](https://github.com/Dainita/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+![All_Stocks_2017](https://github.com/Dainita/VBA-Challenge/blob/main/All_Stocks_2017.png)
+![All_Stocks_2018](https://github.com/Dainita/VBA-Challenge/blob/main/All_Stocks_2018.png)
 
 
 ## Results
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
+Refactoring the code successfully ran the VBA script faster. This code is now more easily understandable and maintainable. The cleaner code can save time and money in the future with easier updates. A major disadvantage was the additional debugging and retesting that was required to make the code run properly. 
